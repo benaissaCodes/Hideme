@@ -1,0 +1,21 @@
+HMAdmin is an Android-based admin tool designed to help  monitor registered devices in real time. It is ideal for i parental control systems
+
+🛠️ Features
+📡 Live Location Tracking
+Displays real-time GPS locations of scanned devices on a map using Firebase Firestore.
+
+🔔 Notification Sync
+Collects and lists notifications (title, text, timestamp, package) from connected devices for audit or reference.
+
+📱 QR-Based Device Enrollment
+Easily register new devices by scanning a QR code and assigning a name.
+
+🗺️ Admin Dashboard with Drawer Menu
+Slide-out drawer shows all enrolled devices with quick access to their details and a delete option.
+
+🔍 Searchable Notification Feed
+View and search historical notifications per device in an organized list.
+
+🕵️‍♂️ Lightweight Background Service
+The location tracking runs in the background with minimal impact and can show a customizable foreground notification (e.g., a weather forecast instead of tracking info).
+
